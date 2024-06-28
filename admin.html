@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Seite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Bereich</h1>
+    </header>
+    <main>
+        <form id="uploadForm">
+            <label for="imageUpload">Bild Upload:</label>
+            <input type="file" id="imageUpload" name="imageUpload" required>
+            <label for="scriptName">Script Name:</label>
+            <input type="text" id="scriptName" name="scriptName" required>
+            <label for="downloadLink">Download Link:</label>
+            <input type="url" id="downloadLink" name="downloadLink" required>
+            <label for="lastUpdate">Last Update:</label>
+            <input type="date" id="lastUpdate" name="lastUpdate" required>
+            <label for="developer">Developer:</label>
+            <input type="text" id="developer" name="developer" required>
+            <button type="submit">Hochladen</button>
+        </form>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>
